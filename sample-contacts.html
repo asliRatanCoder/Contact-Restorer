@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Contacts</title>
+</head>
+<body>
+    <h1>Sample Contact Data</h1>
+    <p>This is a sample HTML file demonstrating various contact formats that Contact Restorer can parse.</p>
+
+    <!-- vCard Format Example -->
+    <h2>vCard Format</h2>
+    <pre>
+BEGIN:VCARD
+VERSION:3.0
+FN:John Doe
+N:Doe;John;;;
+TEL;TYPE=VOICE:+1234567890
+EMAIL;TYPE=INTERNET:john@example.com
+ADR;TYPE=HOME:;;123 Main Street;New York;NY;10001;USA
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Jane Smith
+N:Smith;Jane;;;
+TEL;TYPE=VOICE:+0987654321
+EMAIL;TYPE=INTERNET:jane@example.com
+ADR;TYPE=HOME:;;456 Oak Avenue;Los Angeles;CA;90001;USA
+END:VCARD
+    </pre>
+
+    <!-- Table Format Example -->
+    <h2>Table Format</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Michael Johnson</td>
+            <td>+1111111111</td>
+            <td>michael@example.com</td>
+            <td>789 Pine Road, Chicago, IL</td>
+        </tr>
+        <tr>
+            <td>Sarah Williams</td>
+            <td>+2222222222</td>
+            <td>sarah@example.com</td>
+            <td>321 Elm Street, Houston, TX</td>
+        </tr>
+        <tr>
+            <td>Robert Brown</td>
+            <td>+3333333333</td>
+            <td>robert@example.com</td>
+            <td>654 Maple Drive, Phoenix, AZ</td>
+        </tr>
+    </table>
+
+    <!-- DIV Format Example -->
+    <h2>DIV Format</h2>
+    <div class="vcard">
+        <div class="name">Emily Davis</div>
+        <div class="phone">+4444444444</div>
+        <div class="email">emily@example.com</div>
+        <div class="address">987 Birch Lane, Philadelphia, PA</div>
+    </div>
+
+    <div class="vcard">
+        <div class="name">David Miller</div>
+        <div class="phone">+5555555555</div>
+        <div class="email">david@example.com</div>
+        <div class="address">147 Cedar Court, San Antonio, TX</div>
+    </div>
+
+    <!-- Plain Text Format Example -->
+    <h2>Plain Text Format</h2>
+    <pre>
+Contact List:
+
+Lisa Anderson
++6666666666
+lisa@example.com
+258 Spruce Square, San Diego, CA
+
+James Martinez
++7777777777
+james@example.com
+369 Willow Way, Dallas, TX
+
+Jennifer Taylor
++8888888888
+jennifer@example.com
+741 Ash Avenue, San Jose, CA
+    </pre>
+
+</body>
+</html>
